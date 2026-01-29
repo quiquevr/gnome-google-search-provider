@@ -6,6 +6,12 @@ A simple GNOME extension that allows you to submit a Google query directly from 
 
 
 
+
+https://github.com/user-attachments/assets/9a09cf49-9090-4516-88d8-8c6f98644149
+
+
+
+
 ## Goals
 
 * **P0** - Submit a simple Google search
