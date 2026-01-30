@@ -1,6 +1,6 @@
-# GNOME Google Search
+# GNOME Web search
 
-A simple GNOME extension that allows you to submit a Google query directly from the Activities Overview search box (activated by the Super key).
+A simple GNOME extension that allows you to submit a query to google (for now) directly from the Activities Overview search box (activated by the Super key).
 
 <img width="2220" height="400" alt="image" src="https://github.com/user-attachments/assets/9a26a63e-412f-4925-8a42-890878af3e00" />
 
@@ -16,6 +16,7 @@ https://github.com/user-attachments/assets/9a09cf49-9090-4516-88d8-8c6f98644149
 
 * **P0** - Submit a simple Google search
 * **P0** - Package as a real extension
+* **P1** - Provide configuration option to specify a the search engine to use
 * **P1** - Integrate suggestions for partial search terms
 
 ## Non-Goals
