@@ -35,8 +35,8 @@ https://github.com/user-attachments/assets/9a09cf49-9090-4516-88d8-8c6f98644149
 Clone the repo to a temporary folder:
 
 ```bash
-git clone https://github.com/quiquevr/gnome-google-search-provider.git
-cd gnome-google-search-provider
+git clone https://github.com/quiquevr/gnome-web-search-provider.git
+cd gnome-web-search-provider
 ```
 
 ### 2. Install System Dependencies
