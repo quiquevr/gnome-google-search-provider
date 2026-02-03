@@ -1,11 +1,10 @@
 [Desktop Entry]
-Name=Google Search Provider
-Comment=Search Google from GNOME Shell
-Exec=/usr/local/bin/google-search-provider.py 
-Icon=google-chrome
+Name=Web Search Provider
+Comment=Web search from GNOME Shell
+Exec=/usr/local/bin/gnome-web-search-provider.py 
+Icon=web-browser
 Terminal=false
 Type=Application
 StartupNotify=true
-Comment=Search Google from GNOME Shell
 Categories=GNOME;GTK;System;Development;Utility
 

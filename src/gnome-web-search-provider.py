@@ -6,8 +6,8 @@ from dasbus.loop import EventLoop
 from dasbus.typing import *
 
 # Configuration
-BUS_NAME = "org.gnome.GoogleSearch.SearchProvider"
-OBJECT_PATH = "/org/gnome/GoogleSearch/SearchProvider"
+BUS_NAME = "org.gnome.WebSearch.SearchProvider"
+OBJECT_PATH = "/org/gnome/WebSearch/SearchProvider"
 
 class GoogleSearchProvider(object):
     # We define the raw XML to ensure strict compatibility with GNOME Shell's interface
