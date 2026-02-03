@@ -9,7 +9,7 @@ from dasbus.typing import *
 BUS_NAME = "org.gnome.WebSearch.SearchProvider"
 OBJECT_PATH = "/org/gnome/WebSearch/SearchProvider"
 
-class GoogleSearchProvider(object):
+class WebSearchProvider(object):
     # We define the raw XML to ensure strict compatibility with GNOME Shell's interface
     __dbus_xml__ = """
     <node>
@@ -75,7 +75,7 @@ if __name__ == "__main__":
         
         # Manually register the object with the raw XML interface
         # This is a bit of a hack to ensure GNOME sees exactly what it expects
-        provider = GoogleSearchProvider()
+        provider = WebSearchProvider()
         bus.publish_object(OBJECT_PATH, provider)
         
         # Register the name LAST, after the object is ready
